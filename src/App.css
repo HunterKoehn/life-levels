@@ -57,6 +57,21 @@ input {
   box-sizing: border-box;
 }
 
+.auth-form-container .form-register-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-form-container .form-group .register-btn {
+  width: 100%;
+  height: 35px;
+  background: rgb(15, 204, 46);
+  padding: none;
+  margin: none;
+  box-sizing: border-box;
+}
+
 .auth-form-container .form-group .login-btn:hover {
   cursor: pointer;
 }
