@@ -9,6 +9,9 @@
 
 .auth-form-container h1 {
   color: rgb(15, 204, 46);
+  font-size: 50px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 .auth-form-container form {
@@ -76,6 +79,18 @@ input {
   cursor: pointer;
 }
 
+.auth-form-container .form-group .register-btn:hover {
+  cursor: pointer;
+}
+
 .register-now-btn:hover {
   cursor: pointer;
+}
+
+.register-name, .register-username, .register-password {
+  margin-bottom: 10px;
+}
+
+.form-register-btn {
+  margin-bottom: 30px;
 }
